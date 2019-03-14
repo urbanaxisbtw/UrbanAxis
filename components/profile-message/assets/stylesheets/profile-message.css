@@ -1,12 +1,13 @@
 /* Profile message */
 
 .profile-message-btn {
-    padding: 20px 50px;
+    padding: 20px 0;
+    width: 180px;
     color: white;
     background-color: #431C60;
     border-radius: 2px;
     text-decoration: none;
-    border: 4px solid transparent;
+    border: 2px solid transparent;
     outline: none !important;
     box-sizing: border-box;
 }
