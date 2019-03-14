@@ -1,0 +1,17 @@
+.LoginBotton{
+    width: 80%;
+    height: 45px;
+    font-size: 20px;
+    margin: 30px;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    border: 0px;
+    color: white;
+    border-radius: 2px;
+    background-color:#7B1FA2;
+    background: linear-gradient(right,#7B1FA2, rgba(103, 4, 233, 0.664));
+    background: -webkit-linear-gradient(right,#7B1FA2, rgba(103, 4, 233, 0.664));
+    background: -moz-linear-gradient(right,#7B1FA2, rgba(103, 4, 233, 0.664));
+     
+}
