@@ -5,27 +5,45 @@
     background: -moz-linear-gradient(top, #7B1FA2, #4527A0);
     border-radius: 100% 100% 0 100%;
     transform: rotateZ(45deg);
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.52);
-    padding: 10px;
 }
 
-.drop-icon img{
-    width: 50%;
-}
 
 .test {
     display: flex;
     margin: 40px;
 }
 
+.glemt-adgangskode {
+    text-align: center;
+    color: #707070
+}
+
+.brug-for-profil {
+    text-align: center;
+    color: #707070;
+    margin-top: 120px;
+
+}
+
+.register-form {
+    text-align: center;
+}
+
+.register-form__link {
+    color: #707070;
+}
+
 .drop-icon__content {
     transform: rotateZ(-45deg);
+    height: 40px;
+    width: 40x;
 }
 
 .login-form__text {
@@ -36,6 +54,7 @@
     background-color: #261136;
     border: 1px solid #4826A0;
     color: white;
+    font-family: "runda",sans-serif;
 }
 
 .login-form {
@@ -55,18 +74,22 @@ body{
 }
 
 .login-site__h2 {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
     color: white;
     font-size: 15px;
     align-items: center;
-    padding: 15px;
+    padding: 35px 0 0 0;
     font-family: "runda",sans-serif;
+    font-weight: normal;
 
 }
 .loginbutton{
-    width: 80%;
+    width: 100%;
     height: 45px;
     font-size: 20px;
-    margin: 30px;
+    margin-top: 30px;
     cursor: pointer;
     display:flex;
     justify-content:center;
@@ -77,4 +100,6 @@ body{
     background: linear-gradient(to left,#7B1FA2, rgb(103, 4, 233));
     background: -webkit-linear-gradient(right,#7B1FA2, rgb(103, 4, 233));
     background: -moz-linear-gradient(right,#7B1FA2, rgb(103, 4, 233));
+}
+
      
