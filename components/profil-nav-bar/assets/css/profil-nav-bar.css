@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    justify-items: center; 
+    list-style-type:none;
+    background: #431C60;
+    text-transform: uppercase;
+    font-style: arial;
+}
+li{
+    width: 100%;
+    text-align: center;
+}
+.nav__ul__a{
+    text-decoration: none;
+    color: #A648EB;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+}
+.nav__ul__a--highlight{
+    border-bottom-color: white;
+    color: white;
+}
