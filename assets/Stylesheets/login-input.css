@@ -4,4 +4,12 @@
     margin: 8px 0;
     box-sizing: border-box;
     background-color: #261136;
+    border: 1px solid #4826A0;
+    color: white;
 }
+
+.login-form__label {
+    color: white;
+}
+
+
