@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-nav ul{
+.profilnav__bar__ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0;
@@ -12,7 +12,7 @@ nav ul{
     text-transform: uppercase;
     font-style: arial;
 }
-li{
+.profilnavbar__ul__li{
     width: 100%;
     text-align: center;
 }
