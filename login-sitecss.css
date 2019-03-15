@@ -5,13 +5,23 @@
     background: -moz-linear-gradient(top, #7B1FA2, #4527A0);
     border-radius: 100% 100% 0 100%;
     transform: rotateZ(45deg);
-    width: 250px;
-    height: 250px;
+    width: 90px;
+    height: 90px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.52);
+    padding: 10px;
+}
+
+.drop-icon img{
+    width: 50%;
+}
+
+.test {
+    display: flex;
+    margin: 40px;
 }
 
 .drop-icon__content {
@@ -19,13 +29,18 @@
 }
 
 .login-form__text {
-    width: 90%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     background-color: #261136;
     border: 1px solid #4826A0;
     color: white;
+}
+
+.login-form {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .login-form__label {
@@ -36,9 +51,30 @@ body{
     background-image: url(../UrbanAxis/background-main.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #7B1FA2;
+    background-color: #301545;
 }
 
 .login-site__h2 {
     color: white;
+    font-size: 15px;
+    align-items: center;
+    padding: 15px;
+    font-family: "runda",sans-serif;
+
 }
+.loginbutton{
+    width: 80%;
+    height: 45px;
+    font-size: 20px;
+    margin: 30px;
+    cursor: pointer;
+    display:flex;
+    justify-content:center;
+    border: 0px;
+    color: white;
+    border-radius: 2px;
+    background-color:#7B1FA2;
+    background: linear-gradient(to left,#7B1FA2, rgb(103, 4, 233));
+    background: -webkit-linear-gradient(right,#7B1FA2, rgb(103, 4, 233));
+    background: -moz-linear-gradient(right,#7B1FA2, rgb(103, 4, 233));
+     
