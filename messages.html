@@ -5,21 +5,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+        <link rel="stylesheet" href="https://use.typekit.net/oxe0loa.css">
         <link rel="stylesheet" href="./assets/stylesheets/messages.css">
 
         <title>Beskeder</title>
     </head>
     <body>
-        <header>
-
+        <header class="header">
+            <h1>Beskeder</h1>
+            <ul class="header__person-list">
+                <li><button><img class="header__person-list__icon" src="./assets/img/user-icon.png"><p>Christian Sohl</p></button></li>
+                <li><button><img class="header__person-list__icon" src="./assets/img/user-icon.png"><p>Pernille Nohelr</p></button></li>
+                <li><button><img class="header__person-list__icon" src="./assets/img/user-icon.png"><p>Sarah Parmenter</p></button></li>
+                <li><button><img class="header__person-list__icon" src="./assets/img/user-icon.png"><p>Anna-Maria</p></button></li>
+                <li><button><img class="header__person-list__icon" src="./assets/img/user-icon.png"><p>Louise Colbert</p></button></li>
+            </ul>
         </header>
 
-        <main>
+        <main class="messages">
+            <div class="messages__message-them">
+                <p class="messages__message-them__text">Lorem ipsum dolor sit amet, consectetyr adipiscing elit.</p>
+            </div>
 
+            <div class="messages__message-me">
+                <p class="messages__message-me__text">Sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+
+            <div class="messages__message-them">
+                <p class="messages__message-them__text">Lorem ipsum dolor sit amet, consectetyr adipiscing elit.</p>
+            </div>
+
+            <div class="messages__message-me">
+                <p class="messages__message-me__text">Sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+
+            <div class="messages__message-them">
+                <p class="messages__message-them__text">Lorem ipsum dolor sit amet, consectetyr adipiscing elit.</p>
+            </div>
         </main>
 
         <footer>
-            
+            <form class="message-footer">
+                <button class="message-footer__add-btn"></button>
+                <input class="message-footer__message-box" name="message-box" type="text" placeholder="Send en besked...">
+                <label class="message-footer__send-label" for="message-box"><img class="message-footer__send-icon" src="./assets/img/user-icon.png"></label>
+            </form>
         </footer>
     </body>
 </html>
