@@ -1,17 +1,19 @@
 .loginbutton{
     width: 80%;
-    height: 45px;
+    height: auto;
     font-size: 20px;
-    margin: 30px;
+    margin: 0 auto;
     cursor: pointer;
-    display:flex;
-    justify-content:center;
+    display: block;
+    height: auto;
+    padding: 20px 0;
+    width: 80%;
     border: 0px;
     color: white;
     border-radius: 2px;
     background-color:#7B1FA2;
-    background: linear-gradient(to left,#7B1FA2, rgb(103, 4, 233));
-    background: -webkit-linear-gradient(right,#7B1FA2, rgb(103, 4, 233));
-    background: -moz-linear-gradient(right,#7B1FA2, rgb(103, 4, 233));
+    background: linear-gradient(to left,#7B1FA2, #4527A0);
+    background: -webkit-linear-gradient(right,#7B1FA2, #4527A0);
+    background: -moz-linear-gradient(right,#7B1FA2, #4527A0);
      
 }
