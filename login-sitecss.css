@@ -12,10 +12,11 @@
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.52);
+    margin-left: 15px;
 }
 
 
-.test {
+.logo-text {
     display: flex;
     margin: 40px;
 }
@@ -73,7 +74,7 @@ body{
     background-color: #301545;
 }
 
-.login-site__h2 {
+.login-sitelogotext__h2 {
     height: 100%;
     box-sizing: border-box;
     margin: 0;
@@ -83,6 +84,7 @@ body{
     padding: 35px 0 0 0;
     font-family: "runda",sans-serif;
     font-weight: normal;
+    margin-left: 20px;
 
 }
 .loginbutton{
