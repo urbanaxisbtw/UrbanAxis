@@ -1,4 +1,6 @@
 .tilbage-knap{
     top: 40px;
     position: absolute;
-}
+    height: 30px;
+    left: 10px;
+  }        
