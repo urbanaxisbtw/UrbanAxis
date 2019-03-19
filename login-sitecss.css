@@ -57,6 +57,7 @@
     border: 1px solid #4826A0;
     color: white;
     font-family: "runda",sans-serif;
+    font-size: 20px;
 }
 
 .login-form {
@@ -66,6 +67,7 @@
 
 .login-form__label {
     color: white;
+    font-size: 20px;
 }
 
 body{
@@ -86,10 +88,11 @@ body{
     font-family: "runda",sans-serif;
     font-weight: normal;
     margin-left: 20px;
+    font-size: 20px;
 
 }
 .loginbutton{
-    width: 90%;
+    width: 95%;
     height: 45px;
     font-size: 20px;
     margin: 30px;
@@ -103,6 +106,8 @@ body{
     background: linear-gradient(to left,#7B1FA2, rgb(103, 4, 233));
     background: -webkit-linear-gradient(right,#7B1FA2, rgb(103, 4, 233));
     background: -moz-linear-gradient(right,#7B1FA2, rgb(103, 4, 233));
+    display: flex;
+    justify-content: center;
 }
 
 
