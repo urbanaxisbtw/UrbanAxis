@@ -21,6 +21,10 @@ main {
     box-sizing: border-box;
 }
 
+header {
+    height: 130px;
+}
+
 
 
 .small-grid {
@@ -53,4 +57,8 @@ main {
 
 .location-card__figure__img {
     width: 100%;
+}
+
+.small-grid--bottom {
+    margin-bottom: 60px;
 }
