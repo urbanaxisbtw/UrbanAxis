@@ -72,6 +72,28 @@ main {
     width: 100%;
 }
 
+.location-card__title--sponsored {
+    font-size: 20px;
+    color: #454545;
+    margin: 10px 0 30px 0;
+}
+
+.location-card__description--sponsored {
+    font-size: 14px;
+    color: #CCCCCC;
+}
+
+.location-card__section--sponsored {
+    padding: 20px;
+}
+
+.location-card__sponsored {
+    color: #AAB5E0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-align: right;
+}
+
 .small-grid--bottom {
     margin-bottom: 60px;
 }
@@ -88,6 +110,10 @@ main {
     left: 5%;
     box-sizing: border-box;
     font-size: 16px;
+    background-image: url("../img/search-icon.png");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 12px 13px;
 }
 
 .header__search-bar-icon {
