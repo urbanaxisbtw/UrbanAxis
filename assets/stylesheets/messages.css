@@ -29,6 +29,8 @@ input, button {
     position: fixed;
     top: 0;
     z-index: 50;
+    height: 250px;
+    display: flex;
 }
 
 .message-footer {
@@ -87,11 +89,21 @@ input, button {
     margin: 0;
 }
 
+.header__h1 {
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    top: 35px;
+    margin: 0;
+    left: 75px;
+}
+
 .header__person-list {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
+    align-self: flex-end;
 }
 
 .header__person-list__icon {
