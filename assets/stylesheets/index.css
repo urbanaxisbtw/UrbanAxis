@@ -1,0 +1,64 @@
+body{
+    background-color: #301545;
+    background-image: url(../img/background-main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.drop-icon {
+    background: #4527A0;
+    background: linear-gradient(to bottom, #7B1FA2, #4527A0);
+    background: -webkit-linear-gradient(top, #7B1FA2, #4527A0);
+    background: -moz-linear-gradient(top, #7B1FA2, #4527A0);
+    border-radius: 100% 100% 0 100%;
+    transform: rotateZ(45deg);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.52);
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+.drop-icon__content {
+    transform: rotateZ(-45deg);
+    width: 50%;
+    height: 50%;
+}
+.loginbutton{
+    width: 80%;
+    height: auto;
+    font-size: 20px;
+    margin: 30px auto;
+    cursor: pointer;
+    display: block;
+    height: auto;
+    padding: 20px 0;
+    width: 80%;
+    border: 0px;
+    color: white;
+    border-radius: 2px;
+    background-color:#7B1FA2;
+    background: linear-gradient(to left,#7B1FA2, #4527A0);
+    background: -webkit-linear-gradient(right,#7B1FA2, #4527A0);
+    background: -moz-linear-gradient(right,#7B1FA2, #4527A0);
+}
+.startside{
+    width: 100%;
+}
+.startside h1{
+    margin-top: 50px;
+    font-size: 150%;
+    color: white;
+    font-family: "Runda", sans-serif;
+    font-weight: normal;
+}
