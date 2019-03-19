@@ -98,12 +98,11 @@ body{
     width: 100%;
     height: auto;
     font-size: 20px;
-    margin: 0 auto;
+    margin: 30px 0;
     cursor: pointer;
     display: block;
     height: auto;
     padding: 20px 0;
-    width: 80%;
     border: 0px;
     color: white;
     border-radius: 2px;
@@ -111,5 +110,5 @@ body{
     background: linear-gradient(to left,#7B1FA2, #4527A0);
     background: -webkit-linear-gradient(right,#7B1FA2, #4527A0);
     background: -moz-linear-gradient(right,#7B1FA2, #4527A0);
-    margin-top: 30px;
+    
 }    
