@@ -1,47 +1,50 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/stylesheets/registersite.css">
-</head>
-<body>
-    <div class="logo-text" >
-        <div class="drop-icon">
-        <img src="./assets/img/drop-star.png" class="drop-icon__content"> 
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="./assets/stylesheets/registersite.css">
+        <link rel="stylesheet" href="https://use.typekit.net/oxe0loa.css">
+    </head>
+
+    <body>
+        <div class="logo-text">
+            <div class="drop-icon">
+                <img src="./assets/img/drop-star.png" class="drop-icon__content">
+            </div>
+
+            <h2 class="login-sitelogotext__h2">Din rejsekammarat</h2>
         </div>
 
-        <h2 class="login-sitelogotext__h2" >Din rejsekammarat</h2>
-        </div>
+        <form class="login-form">
+            <!--navne-->
+            <label class="login-form__label" for="name">Fulde navn </label>
+            <input type="text" class="login-form__text" name="name">
+            <!--navne slut-->
 
-    <form class="login-form">
-    <!--navne-->    
-        <label class="login-form__label"for="name">Fulde navn </label>
-        <input type="text" class="login-form__text" name="name">
-    <!--navne slut-->
+            <!--email start-->
+            <label class="login-form__label" for="e-mail">Email adresse</label>
+            <input type="text" class="login-form__text" name="e-mail">
+            <!--email slut-->
 
-    <!--email start-->
-    <label class="login-form__label"for="e-mail">Email adresse</label>
-    <input type="text" class="login-form__text" name="e-mail">
-    <!--email slut-->
+            <!--adgangskode start-->
+            <label class="login-form__label" for="password">Adgangskode</label>
+            <input type="password" class="login-form__text" name="password">
+            <!--adgangskode slut-->
 
-    <!--adgangskode start-->
-    <label class="login-form__label"for="password">Adgangskode</label>
-    <input type="password" class="login-form__text" name="password">
-    <!--adgangskode slut-->
+            <!--repeat adgangskode start-->
+            <label class="login-form__label" for="repeat-password">Gentag Adgangskode</label>
+            <input type="password" class="login-form__text" name="repeat-password">
+            <!--repeat adgangskode slut-->
+            <button class="loginbutton" type="button">REGISTER</button>
+        </form>
 
-    <!--repeat adgangskode start-->
-    <label class="login-form__label"for="repeat-password">Gentag Adgangskode</label>
-    <input type="password" class="login-form__text" name="repeat-password">
-    <!--repeat adgangskode slut-->
-        <button class="loginbutton" type="button">REGISTER</button>
-    </form>
+        <p class="allerede-registreret">Allerede registreret?</p>
+        <p class="login">LOGIN</p>
 
-    <p class="allerede-registreret">Allerede registreret?</p>
-    <p class="login">LOGIN</p>
+    </body>
 
-</body>
 </html>
