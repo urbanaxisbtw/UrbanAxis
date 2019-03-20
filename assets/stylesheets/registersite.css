@@ -17,9 +17,9 @@
 
 
 .logo-text {
-    display: flex;
     margin: 40px;
     margin-top: 15vh;
+    display: flex;
 }
 
 .drop-icon__content {
@@ -69,8 +69,7 @@ body{
     font-family: "runda",sans-serif;
     font-weight: normal;
     margin-left: 20px;
-    font-size: 20px;
-
+    font-size: 20px;    
 }
 .loginbutton{
     width: 100%;
