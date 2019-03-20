@@ -15,6 +15,10 @@
     margin-left: 15px;
 }
 
+body {
+    margin: 0;
+}
+
 
 .logo-text {
     margin: 40px;
