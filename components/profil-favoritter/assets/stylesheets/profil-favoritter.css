@@ -1,0 +1,145 @@
+h1{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+h2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.tilbage-knap{
+    top: 40px;
+    position: absolute;
+    height: 30px;
+    left: 10px;
+}
+
+
+.profile-message-btn {
+    padding: 20px 0;
+    width: 165px;
+    color: white;
+    background-color: #431C60;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    outline: none !important;
+    box-sizing: border-box;
+    position: relative;
+    top: 70px;
+    margin: 5px;
+}
+
+.profile-message-btn:hover {
+    background-color: #A648EB;
+    cursor: pointer;
+}
+
+.profile-follow-btn {
+    padding: 20px 0;
+    width: 165px;
+    color: white;
+    background-color: transparent;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 2px solid white;
+    outline: none !important;
+    box-sizing: border-box;
+    position: relative;
+    top: 70px;
+    margin-bottom: 5px;
+}
+
+.profile-follow-btn:hover {
+    background-color: white;
+    color: #431C60;
+    cursor: pointer;
+}
+
+body{
+    margin: 0px;
+    background-image:
+    linear-gradient( #431c60,#de08e6);;
+    -webkit-linear-gradient( top, #431c60, #de08e6);;
+    -moz-linear-gradient(top, 431c60, #de08e6);;
+    background-color: #431C60;
+}
+.profilnav__bar__ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    justify-items: center; 
+    list-style-type:none;
+    background: #431C60;
+    text-transform: uppercase;
+    margin-top: 100px;
+    
+
+}
+.profilnavbar__ul__li{
+    width: 100%;
+    text-align: center;
+}
+.nav__ul__a{
+    text-decoration: none;
+    color: #A648EB;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+    
+}
+.nav__ul__a--highlight{
+    border-bottom-color: white;
+    color: white;
+
+}
+
+.båd-billed2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation__navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #431C60;
+    padding: 15px;
+}
+
+.navigation__gradient {
+    background: transparent;
+    background: linear-gradient(to top, rgba(0,0,0,0.62), rgba(0,0,0,0));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,0.62), rgba(0,0,0,0));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.62), rgba(0,0,0,0));
+    width: 100%;
+    height: 90px;
+
+}
+
+.navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+ 
+
+
+
+
