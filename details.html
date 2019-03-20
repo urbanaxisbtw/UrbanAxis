@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://use.typekit.net/oxe0loa.css">
 
         <link rel="stylesheet" href="./assets/stylesheets/tilbage-knap.css">
+        <link rel="stylesheet" href="./assets/stylesheets/drop-icon.css">
         <link rel="stylesheet" href="./assets/stylesheets/navbar.css">
         <link rel="stylesheet" href="./assets/stylesheets/details.css">
         
@@ -17,6 +18,8 @@
 
         <header class="header">
             <img class="tilbage-knap" src="./assets/img/tilbage-knap.png" alt="back">
+
+            <button class="star-button"><img src="./assets/img/drop-star.png" class="star-button__img"></button>
         </header>
 
         <main>
@@ -67,17 +70,22 @@
             </div>
 
             <div class="reviewing-system">
-                <form class="reviewing-system__reviewing-form">
-                    <div class="side-right">
-                        <label class="reviewing-form__name">Nyhavn</label>
-                        <div class="stars">
-                            <img src="./assets/img/star.png">
-                            <img src="./assets/img/star.png">
-                            <img src="./assets/img/star.png">
-                            <img src="./assets/img/star.png">
-                            <img src="./assets/img/star-gray.png">
-                        </div>
+                <div class="drop-icon">
+                    <img src="./assets/img/main-content-a.png" class="drop-icon__content">
+                </div>
+
+                <div class="side-right">
+                    <label class="reviewing-system__name">Nyhavn</label>
+                    <div class="stars stars--flex">
+                        <img src="./assets/img/star.png">
+                        <img src="./assets/img/star.png">
+                        <img src="./assets/img/star.png">
+                        <img src="./assets/img/star.png">
+                        <img src="./assets/img/star-gray.png">
                     </div>
+                </div>
+
+                <form class="reviewing-system__reviewing-form">
                     <textarea class="reviewing-system__reviewing-form__textarea" placeholder="Hvad har du på hjertet..."></textarea>
                 </form>
             </div>
