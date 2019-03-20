@@ -106,3 +106,7 @@ body{
     font-family: "runda",sans-serif;
     text-decoration: underline;
 }
+
+.login__link {
+    color: #707070;
+}
